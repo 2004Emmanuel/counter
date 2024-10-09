@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px;
+  max-width: 100%;
+  background: linear-gradient(135deg, rgb(2, 121, 103), rgb(9, 9, 28));
+}
+.all #counter {
+  font-size: 4em;
+  color: #ffff;
+  font-family: cursive;
+}
+.all button {
+  font-size: 40px;
+  padding: 10px;
+  font-family: cursive;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
